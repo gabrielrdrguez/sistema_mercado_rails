@@ -1,0 +1,17 @@
+<%= form_for @produto do |f| %>
+    <p>
+      <%= f.label :nome %><br>
+      <%= f.text_field :nome%>
+    </p>
+    <p>
+      <%= f.label :quantidade %><br>
+      <%= f.text_field :quantidade %>
+    </p>
+    <p>
+      <%= f.label :preco %><br>
+      <%= f.text_field :preco %>
+    </p>
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
